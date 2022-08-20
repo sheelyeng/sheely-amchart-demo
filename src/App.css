@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fixes the slight offset between the centering on the pages */
+body {
+  overflow-y: scroll;
+}
+
+.header {
+  margin: 10px;
+  text-align: center;
+}
+
+.jsprogram {
+  font-weight: bold;
+}
+
+.tooltip-linkedin > .tooltip-inner {
+  background-color: #0077b5;
+}
+
+/* .bs-tooltip-auto[x-placement^="right"] span.arrow::before,
+.bs-tooltip-right .arrow::before {
+  border-right-color: #0077B5;
+} */
+
+.tooltip-linkedin .arrow::before {
+  border-right-color: #0077b5;
+}
+
+.tooltip-scrum > .tooltip-inner {
+  background-color: #4eabc0;
+}
+
+.tooltip-scrum .arrow::before {
+  border-right-color: #4eabc0;
+}
+
+.tooltip-apk > .tooltip-inner {
+  background-color: darkblue;
+}
+
+.tooltip-apk .arrow::before {
+  border-right-color: darkblue;
+}
+
+#apk:hover {
+  background-color: darkblue;
+}
+
+.tooltip-apk-tbr > .tooltip-inner {
+  background-color: red;
+}
+
+.tooltip-apk-tbr .arrow::before {
+  border-right-color: red;
+}
+
+#apktbr:hover {
+  background-color: red;
+}
+
+/* Selects all <img> elements inside <a> elements */
+a img:hover {
+  -webkit-filter: opacity(0.7);
+  filter: opacity(0.7);
+}
+
+.imgContainer {
+  text-align: center;
+}
+
+.imgContainer img,
+.iconContainer img {
+  border-radius: 50%;
+  margin: 2px;
+}
+
+.scrumBadge {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.headerContainer p {
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .headerContainer p {
+    text-align: center;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+table {
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Project videos and images */
+
+video {
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+.projectImg {
+  display: block;
+  margin: 0 auto 15px auto;
+  border: 1px solid #eea29a;
+}
+
+/* If the screen size is 450px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 450px) {
+  video {
+    width: 300px;
+  }
+}
+
+/* Selects all <th> elements and all <td> elements */
+th,
+td {
+  padding: 7px;
+}
+
+.projectTitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Selects all <a> elements inside .animatedTitle divs where the parent is .projectTitle */
+.projectTitle > .animatedTitle a {
+  font-size: 25px;
+}
+
+.infoText {
+  margin-bottom: 20px;
+}
+
+.introText {
+  margin-top: 20px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.animatedTitle a {
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+  position: relative;
+}
+
+.animatedTitle a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 1px solid #000000;
+  transition: 0.4s;
+}
+
+.animatedTitle a:hover:after {
+  width: 100%;
+}
+
+.animatedTitle a:hover {
+  font-style: italic;
+}
+
+/* Work Experience */
+.workExperience {
+  margin-bottom: 20px;
+}
+
+.workExperience h3 {
+  font-size: 20px;
+}
+
+.workExperience h4 {
+  font-size: 15px;
+}
+
+.workExperience h5 {
+  font-size: 15px;
+  color: gray;
+}
+
+#chartdiv {
+  width: 100%;
+  max-width: 100%;
+  height: 550px;
+}
