@@ -6,6 +6,8 @@
 	<h1>Pie Chart using AmCharts4</h1>
 </div>
 
+# Demo
+https://sheely-amchart-demo.netlify.app/
 <br>
 
 # Script
