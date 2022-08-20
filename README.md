@@ -3,7 +3,7 @@
 
 <div align="center">
 	<img src="src/assets/PieChartDemo.png">
-	<h1>Pie Chart using AmChart4</h1>
+	<h1>Pie Chart using AmCharts4</h1>
 </div>
 
 <br>

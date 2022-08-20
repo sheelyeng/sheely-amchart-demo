@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <div>
-        <h2 className="header">AmChart - Demo</h2>
+        <h2 className="header">AmCharts - Demo</h2>
         <hr />
         <Switch>
           <Route exact path="/" component={PieChart1} />
